@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/bg-body.png);
+}
+
+div.container {
+    max-width: 1180px;
+    margin: 0 auto
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-nav ul li {
+    padding: 5px;
+    background-color: gray;
+    width: 180px;
+    text-align: center;
+    
+}
+
+section.banner img {
+    width: 100%;
+}
+.vip-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.photo-container .photo{
+    width: 100%;
+}
+
+.product {
+    width: 380px;
+}
