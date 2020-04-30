@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/bg-body.png);
+}
+
+.main-header img {
+    display: block;
+    margin: 15px auto 30px auto;
+    border-radius: 180px;
+    width: 180px;
+    
+}
+
+div.container {
+    max-width: 1180px;
+    margin: 0 auto
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.main-nav ul li {
+    padding: 15px;
+    background-color: gray;
+    width: 180px;
+    text-align: center;
+    height: 50px;
+    
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section.banner img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.vip-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.photo-container .photo{
+    width: 100%;
+    
+}
+
+.product {
+    width: 380px;   
+    display: block;
+    margin: 8px 0px;
+    
+}   
+
+.photo-container .special {
+    display: block;
+    z-index: 5;
+    position: relative;
+    bottom: 206px;
+    
+     
+}
+.photo-container .zoom {
+    display: block;
+    background-color: rgba(50, 50, 50, 0.3);
+    text-align: center;
+    position: relative;
+    bottom: 160px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+h2 {
+    margin-bottom: 15px;
+}
+ p{
+     margin: 5px;
+ }
+.product .more {
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.main-footer {
+    display: block;
+    background-color: #cc4656;
+    border-radius: 30px 30px 0px 0px;
+    text-align: center;
+}
+
+.main-footer {
+    width: 1180px;
+}
+
+.main-footer ul{
+    margin-top: 30px;
+   list-style: none;
+   padding: 30px;
+   
+   
+}
+
+.main-footer ul li {
+    display: inline;
+    
+    
+}
+.main-footer ul li a {
+    text-decoration: none;
+    color:gray;
+    
+    
+}
+
+
+
+ 
+
